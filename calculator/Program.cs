@@ -17,7 +17,7 @@ namespace calculator
                 Clear(); 
                 Write($"первое число: ");
                 double.TryParse(ReadLine(), out double num1);
-                Write($"действие: ");
+                Write($"действие( + -- сумма - -- разница * -- произведение / -- частное ^ -- возведение в степень % -- остаток от деления : ");
                 string todo = ReadLine();
                 Write($"второе число: ");
                 double.TryParse(ReadLine(), out double num2);
